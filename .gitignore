@@ -10,3 +10,4 @@ venv.bak/
 # Pyre type checker
 .idea/*
 .env
+test.db

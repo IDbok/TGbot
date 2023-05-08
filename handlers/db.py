@@ -38,7 +38,7 @@ def db_function(message_info, list_to_db):
 
     try:
         # print('Подключение к БД')
-        conn = sqlite3.connect("test.db")
+        conn = sqlite3.connect("venv/test.db")
         cursor = conn.cursor()
         # print("Проверка допуска (наличие в таблицы users)")
         # Проверка допуска (наличие в таблицы users)

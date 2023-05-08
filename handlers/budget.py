@@ -11,7 +11,7 @@ from aiogram.dispatcher import FSMContext
 from aiogram.utils.markdown import hcode
 
 from handlers.my_functions import message_processing
-from handlers.db2 import db_function
+from handlers.db import db_function
 
 
 async def bot_echo(message: types.Message):
